@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.posenet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:12:3-15
+8        android:minSdkVersion="21"
+8-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:12:3-15
+9        android:targetSdkVersion="23" />
+9-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:12:3-15
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:5:3-63
+11-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:5:20-60
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:6:3-64
+12-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:6:20-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:7:3-68
+13-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:7:20-66
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:9:3-58
+15-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:9:17-55
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:10:3-68
+16-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:10:17-65
+17
+18    <application
+18-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:14:3-39:17
+19        android:allowBackup="true"
+19-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:15:7-33
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\ATIV\.gradle\caches\transforms-2\files-2.1\0f6d3704d9260a8aadb632e373006138\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_yoga"
+22-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:16:7-37
+23        android:label="@string/tfe_pn_app_name"
+23-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:17:7-46
+24        android:roundIcon="@mipmap/ic_yoga_round"
+24-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:18:7-48
+25        android:supportsRtl="true"
+25-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:19:7-33
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme.Posenet" >
+27-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:20:7-46
+28      android:usesCleartextTraffic="true"
+29        <activity
+29-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:22:5-26:16
+30            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
+30-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:23:9-37
+31            android:exported="true"
+31-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:25:9-32
+32            android:label="@string/tfe_pn_app_name" >
+32-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:24:9-48
+33        </activity>
+34        <activity android:name="org.tensorflow.lite.examples.posenet.MainActivity" >
+34-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:28:5-34:16
+34-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:28:15-43
+35            <intent-filter>
+35-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:29:7-33:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:30:9-61
+36-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:30:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:32:9-69
+38-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:32:19-66
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:35:5-36:16
+42            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+42-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:35:15-45
+43            android:exported="true" >
+43-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:35:46-69
+44        </activity>
+45        <activity android:name="org.tensorflow.lite.examples.posenet.Sensor" />
+45-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:37:5-39
+45-->C:\Users\ATIV\AndroidStudioProjects\finalactivity\0528\android\app\src\main\AndroidManifest.xml:37:15-37
+46    </application>
+47
+48</manifest>
